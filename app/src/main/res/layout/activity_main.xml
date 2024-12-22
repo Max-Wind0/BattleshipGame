@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Морской бой"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:paddingBottom="32dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <Button
+        android:id="@+id/easy_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Легкий"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/normal_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нормальный"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/multiplayer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мультиплеер"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
